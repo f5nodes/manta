@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt update
 sudo apt install make clang pkg-config libssl-dev libclang-dev build-essential git curl ntp jq llvm tmux htop screen unzip cmake -y
 curl -s https://raw.githubusercontent.com/f5nodes/root/main/install/rust.sh | bash &>/dev/null
 source $HOME/.cargo/env
